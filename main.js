@@ -37,6 +37,7 @@ document.getElementById('price1').addEventListener('click',function(){
     document.getElementById('price2').style.backgroundColor='transparent';
     document.getElementById('total').innerHTML=parseInt(0);
     document.getElementById('pay').innerHTML=parseInt(0);
+    i=0;
     j=1;
 });
 document.getElementById('price2').addEventListener('click',function(){
@@ -44,6 +45,7 @@ document.getElementById('price2').addEventListener('click',function(){
     document.getElementById('price1').style.backgroundColor='transparent';
     document.getElementById('total').innerHTML=parseInt(0);
     document.getElementById('pay').innerHTML=parseInt(0);
+    i=0
     j=0;
 });
 
