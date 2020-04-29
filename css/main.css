@@ -6216,7 +6216,7 @@ readers do not read off random characters that represent icons */
   }
   .banner .ban-right1 {
     padding: 0em !important;
-    padding-top: 5em !important;
+    padding-top: 2em !important;
   }
   .banner .ban-right--content {
     width: 100% !important;
@@ -6249,6 +6249,9 @@ readers do not read off random characters that represent icons */
   .banner .bb1 {
     padding-top: 3.2em !important;
   }
+  .banner .bb3-hover {
+    height: 205px !important;
+  }
   .banner .ban-text {
     display: block !important;
   }
@@ -6260,17 +6263,17 @@ readers do not read off random characters that represent icons */
     margin: 0px auto;
   }
   .banner .link4 {
-    width: 58% !important;
+    width: 64% !important;
   }
   .banner .link5 {
     padding-top: 0.6em !important;
   }
   .banner .link6 {
-    width: 25% !important;
+    width: 28% !important;
   }
   .banner .link7 {
     margin-top: 0.6em !important;
-    width: 25% !important;
+    width: 31% !important;
   }
   .banner .link7--content {
     width: 100% !important;
@@ -6760,7 +6763,7 @@ readers do not read off random characters that represent icons */
 }
 
 .ban-right--content .ban-right1 .ban-right--area .link6 {
-  width: 19%;
+  width: 18%;
   border: 1px solid #a9a2a2;
   border-radius: 30px;
 }
@@ -6797,7 +6800,7 @@ readers do not read off random characters that represent icons */
 
 .ban-right--content .ban-right1 .ban-right--area .link7 .link7--content h4 {
   margin-top: 3px;
-  margin-left: 9px;
+  margin-left: 15px;
 }
 
 .ban-right--content .ban-right1 .ban-text1 {
