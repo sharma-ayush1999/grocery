@@ -6774,6 +6774,7 @@ readers do not read off random characters that represent icons */
   padding-bottom: 0.3em;
   font-size: 1em;
   color: #a9a2a2;
+  cursor: pointer;
 }
 
 .ban-right--content .ban-right1 .ban-right--area .link7 {
