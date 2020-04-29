@@ -61,7 +61,7 @@ document.getElementById('plus').addEventListener('click',function(){
 });
 
 document.getElementById('minus').addEventListener('click',function(){
-    if(i<0){
+    if(i==0){
         document.getElementById('total').innerHTML=parseInt(0);
         document.getElementById('pay').innerHTML=parseInt(0);
     }

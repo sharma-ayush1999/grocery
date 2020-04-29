@@ -8,6 +8,7 @@
     }
 }
 @include media(phone){
+
 .header-ul{
     display: none !important;
 }
@@ -15,7 +16,8 @@
     display: block !important;
 }
 .logo-img{
-    width: 41% !important;
+    width: 20% !important;
+    height: 43px !important;
 }
 .header-icon{
     display: block !important;
