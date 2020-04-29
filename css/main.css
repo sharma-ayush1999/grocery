@@ -6264,7 +6264,7 @@ readers do not read off random characters that represent icons */
     margin: 0px auto;
   }
   .banner .link4 {
-    width: 64% !important;
+    width: 70% !important;
   }
   .banner .link5 {
     padding-top: 0.6em !important;
@@ -6274,10 +6274,10 @@ readers do not read off random characters that represent icons */
   }
   .banner .link7 {
     margin-top: 0.6em !important;
-    width: 31% !important;
+    width: 100% !important;
   }
   .banner .link7--content {
-    width: 100% !important;
+    width: 29% !important;
     padding: 0em !important;
   }
   .ban-text1--area {

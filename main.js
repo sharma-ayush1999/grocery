@@ -55,7 +55,7 @@ document.getElementById('plus').addEventListener('click',function(){
         document.getElementById('pay').innerHTML=parseInt(i)*399;  
     }
     else if(j==0){
-        document.getElementById('pay').innerHTML=parseInt(i)*299;  
+        document.getElementById('pay').innerHTML=parseInt(i)*209;  
     }
     }
 });
@@ -72,7 +72,7 @@ document.getElementById('minus').addEventListener('click',function(){
             document.getElementById('pay').innerHTML=parseInt(i)*399;  
         }
         else if(j==0){
-            document.getElementById('pay').innerHTML=parseInt(i)*299;  
+            document.getElementById('pay').innerHTML=parseInt(i)*209;  
         }
         }
 }
