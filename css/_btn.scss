@@ -1,0 +1,25 @@
+.btn{
+    padding: 1em;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+    font-size: 1.4em;  
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.btn-blue{
+    background-color: #3566ff;
+    border: 2px solid transparent;
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 2px solid grey;
+}
+.btn-orange{
+    background-color: transparent;
+    border: 2px solid rgb(216, 149, 26);
+}
+.btn-green{
+    background-color: rgb(71, 248, 86);
+}

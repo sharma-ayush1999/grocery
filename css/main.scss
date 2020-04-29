@@ -1,0 +1,37 @@
+@import "mediaquery";
+@import "fontawesome";
+@import "solid";
+@import "regular";
+@import "btn";
+@import "brands";
+@import "reset";
+@import "scrollbar";
+@import "header";
+@import "banner";
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.flex{
+    display: flex;
+}
+._90{
+    width: 90%;
+    margin: 0px auto;
+}
+._80{
+    width: 80%;
+}
+._50{
+    width: 50%;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+a,li{
+    list-style: none;
+    text-decoration: none;
+}

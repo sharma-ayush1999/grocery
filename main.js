@@ -1,0 +1,43 @@
+if(document.getElementById('ban-content1').style.display=='none'){
+    document.getElementById('ban-down').style.display='flex';
+    document.getElementById('ban-up').style.display='none';
+}
+else{
+    document.getElementById('ban-down').style.display='none';
+    document.getElementById('ban-up').style.display='flex';
+}
+document.getElementById('ban-down').addEventListener('click',function(){
+    if(document.getElementById('ban-content1').style.display=='none'){
+        document.getElementById('ban-content1').style.display='block';
+        document.getElementById('ban-down').style.display='none';
+        document.getElementById('ban-up').style.display='flex';
+    }
+    else{
+        document.getElementById('ban-content1').style.display='none';
+        document.getElementById('ban-up').style.display='none';
+        document.getElementById('ban-down').style.display='flex';
+    }
+});
+document.getElementById('ban-up').addEventListener('click',function(){
+    if(document.getElementById('ban-content1').style.display=='none'){
+        document.getElementById('ban-content1').style.display='block';
+        document.getElementById('ban-down').style.display='none';
+        document.getElementById('ban-up').style.display='flex';
+    }
+    else{
+        document.getElementById('ban-content1').style.display='none';
+        document.getElementById('ban-up').style.display='none';
+        document.getElementById('ban-down').style.display='flex';
+    }
+});
+
+
+document.getElementById('price1').addEventListener('click',function(){
+    document.getElementById('price1').style.backgroundColor='#04f804';
+    document.getElementById('price2').style.backgroundColor='transparent';
+});
+document.getElementById('price2').addEventListener('click',function(){
+    document.getElementById('price2').style.backgroundColor='#04f804';
+    document.getElementById('price1').style.backgroundColor='transparent';
+});
+
