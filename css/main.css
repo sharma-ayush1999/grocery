@@ -6811,7 +6811,7 @@ readers do not read off random characters that represent icons */
 
 .ban-right--content .ban-right1 .ban-text1 .grocery {
   width: 100%;
-  height: 256px;
+  height: 275px;
   border-radius: 5px;
 }
 
@@ -6819,17 +6819,19 @@ readers do not read off random characters that represent icons */
   padding: 1em;
   padding-top: 0em;
   padding-bottom: 0em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .ban-right--content .ban-right1 .ban-text--content {
   background-color: #ebebef;
   text-align: center;
-  width: 45%;
+  width: 41%;
   border-radius: 10px;
 }
 
 .ban-right--content .ban-right1 .ban-text--content .sec1 {
-  padding: 1.5em;
+  padding: 1.4em;
 }
 
 .ban-right--content .ban-right1 .ban-text--content h3 {
@@ -6850,7 +6852,7 @@ readers do not read off random characters that represent icons */
 }
 
 .ban-right--content .ban-right1 .ban-text--content1 .sec2 {
-  width: 49%;
+  width: 48%;
   background-color: #ebebef;
   border-radius: 7px;
   margin-bottom: 6px;
@@ -6862,7 +6864,7 @@ readers do not read off random characters that represent icons */
 }
 
 .ban-right--content .ban-right1 .ban-text--content1 .sec2-area {
-  padding: 0.5em;
+  padding: 0.7em;
 }
 
 .ban-right--content .ban-right1 .ban-text--content1 .grocery1 {
